@@ -1,0 +1,11 @@
+schema: analytics.avo
+targets:
+  Web:
+    language: JavaScript
+    dist: analytics.js
+    platform:
+      amplitude:
+        analyticsPackage: avo-amplitude-js
+        apiKeys:
+          dev: DEV_KEY
+          prod: PROD_KEY
